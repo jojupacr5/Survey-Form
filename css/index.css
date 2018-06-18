@@ -1,0 +1,42 @@
+body{
+    background-color: #a9d7d1;
+}
+h1{
+    margin: 20px 0;
+}
+.survey-container{
+    margin: 0 3em;
+    padding: 30px 1em 20px;
+    background-color: white;
+}
+  
+@media (min-width: 576px) { 
+    form label, form legend{
+      text-align: right;
+    }
+    .input-container input, .input-container select, .input-container textarea{
+      width: 90%;
+      display: block;
+    }
+}
+  
+@media (min-width: 768px) { 
+    .input-container input, .input-container select, .input-container textarea{
+      width: 280px;
+      display: block;
+    }
+    .survey-container{
+      width: 80vw;
+      margin: 0 auto;
+      padding: 30px 5em 20px;
+    }
+}
+  
+@media (min-width: 992px) {
+    .survey-container{
+      width: 70vw;
+    }
+}
+  
+@media (min-width: 1200px) { 
+}
